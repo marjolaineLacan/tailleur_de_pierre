@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<title>Tailleur de pierre</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/jquery.pageslide.css">
+	<script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
+
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+		integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
+	<script src="js/script.js"></script>
+
+</head>
+
+
+<body>
+
+	<div id="wrapper">
+
+		<header id="bandeau">
+
+			<div id="logoGauche">
+				<img src="../photos/logo.png" title="logo" />
+			</div>
+			<div id="logoDroite">
+				<p>
+					<img src="../projet/322_121904210.jpg" title="tailler" id="tailler" />
+					<img src="../photos/taillerPourDurer.png" title="taillerDurer" id="taillerDurer" />
+				</p>
+			</div>
+		</header>
+
+		<nav>
+			<ul id="mobile">
+				<li id="burger">&nbsp;</li>
+				<li><a href="contact.html" title="contact">Contact</a></li>
+			</ul>
+
+			<ul class="menu">
+				<li><a href="index.html" title="retour accueil" target="_blank">Actualités</a></li>
+				<li><a href="#">Tailleur de pierre</a></li>
+				<li><a href="#">Patrimoine</a></li>
+				<li><a href="#">Enduits</a></li>
+				<li><a href="#">Sculptures</a></li>
+				<li><a href="contact.html" title="contact">Contact</a></li>
+			</ul>
+		</nav>
+
+		<main id="principal">
+
+			<section id="gauche">
+				<div id="coordo">
+					<h1>Nous contacter:</h1>
+					<p>M. TRUPHEAU<br />
+						70 Les Bruges <br />
+						26160 La Bâtie-Rolland
+					</p>
+					<br />
+					<p>Téléphone: +33 38 09 13 37 86<br />
+						Portable: 06 37 01 88 09<br />
+						Email: trupheau@orange.fr
+					</p>
+				</div>
+
+				<div id="plan">
+					<h1>ACCES</h1>
+					<iframe
+						src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2843.1538499710714!2d4.873446815603062!3d44.55295517910086!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12b5688c58e4f32d%3A0xb5c6b907fd470a0d!2s70+Les+Bruges%2C+26160+La+B%C3%A2tie-Rolland!5e0!3m2!1sfr!2sfr!4v1559566412285!5m2!1sfr!2sfr"
+						width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+				</div>
+			</section>
+
+			<section id="droite">
+				<br />
+				<h1>DEMANDE DE CONTACT :</h1>
+				<p>Merci de bien vouloir préciser vos coordonnées et votre demande.
+					<br />
+					<form method="" action="" enctype="multipart/form-data">
+						<ul>
+							<li>
+								<label for="nom">Nom* : </label> <br />
+								<input type="text" id="nom" required name="nom" placeholder="Votre nom complet"
+									class="inputs" />
+							</li>
+
+							<li>
+								<label for="prenom">Prénom* : </label> <br />
+								<input type="text" id="prenom" required name="prenom" placeholder="Votre prénom"
+									class="inputs" />
+							</li>
+
+							<li>
+								<label for="adresse">Adresse* : </label> <br />
+								<input type="text" id="adresse" required name="adresse" placeholder="Votre adresse"
+									class="inputs" />
+							</li>
+
+							<li>
+								<label for="cp">Ville* : </label> <br />
+								<input type="number" id="ville" required name="ville" placeholder="Votre ville"
+									class="inputs" />
+							</li>
+
+							<li>
+								<label for="tel">Téléphone* : </label> <br />
+								<input type="tel" id="tel" required name="tel" placeholder="Votre numéro de téléphone"
+									class="inputs" />
+							</li>
+
+							<li>
+								<label for="email">Email* : </label> <br />
+								<input type="email" id="email" required name="email" placeholder="Votre adresse email"
+									class="inputs" />
+							</li>
+
+							<li>
+								<label for="message"> Votre message* :</label><br />
+								<textarea cols="40" rows="10" id="message" required name="message"
+									class="inputs">Taper votre message</textarea>
+							</li>
+
+							<li>
+								<input type="checkbox" name="cg" id="cg" value="cg" />
+								En cochant cette case, j'accepte les termes des mentions légales
+								et autorise Trupheau <br />à utiliser mes coordonnées pour me recontacter
+								<label for="cg"></label>
+							</li>
+
+							<li id="bouton">
+								<label></label><br />
+								<input type="reset" id="reset" /> <input type="submit" id="valider" value="Valider">
+							</li>
+						</ul>
+					</form>
+			</section>
+
+
+		</main>
+
+		<footer>
+			<div id="footerG">
+				<a href="index.html" title="retour accueil">Accueil -</a>
+				Mentions légales -
+				Tél.: 03 80 91 37 86
+			</div>
+
+			<div id="footerD">
+				<i class="fab fa-facebook-square"></i>
+				<i class="fab fa-google-plus-g"></i>
+				<i class="fab fa-instagram"></i>
+				<i class="fas fa-rss"></i>
+				<i class="fab fa-twitter"></i>
+			</div>
+
+		</footer>
+
+
+	</div>
+
+	<!-- <script src="script.js"></script> -->
+
+</body>
+
+</html>
